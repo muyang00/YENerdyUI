@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppStoreViewController : UIViewController
+@interface AppStoreViewController : UITableViewController
+
 
 @end

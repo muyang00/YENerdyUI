@@ -10,4 +10,6 @@
 
 @interface AppStoreViewCell : UITableViewCell
 
+- (void)updateWithApp:(NSDictionary *)app index:(NSInteger)index;
+
 @end

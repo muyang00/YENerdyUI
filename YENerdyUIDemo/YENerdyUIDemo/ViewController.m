@@ -83,15 +83,93 @@
     
 }
 - (void)demo3{
-    
+    ImageView.img(@"macbook").embedIn(self.view).centerMode;
+    id hello = Label.str(@"Hello").fnt(@20).wh(80, 80).centerAlignment;
+    id mac = Label.str(@"MAC").fnt(@20).wh(80, 80).centerAlignment;
+    EffectView.darkBlur.fixWH(80, 80).addTo(self.view).makeCons(^{
+        make.right.equal.superview.centerX.constants(0);
+        make.bottom.equal.superview.centerY.constants(0);
+    }).addVibrancyChild(hello).tg(101);
+    EffectView.extraLightBlur.fixWidth(80).fixHeight(80).addTo(self.view).makeCons(^{
+        make.left.bottom.equal.view(self.view).center.constants(0, 0);
+    });
+    EffectView.lightBlur.addTo(self.view).makeCons(^{
+        make.size.equal.constants(80,80).And.center.equal.constants(40, 40);
+    }).addVibrancyChild(mac);
+    id subImg = Img(@"macbook").subImg(95, 110, 80, 80).blur(10);
+    ImageView.img(subImg).addTo(self.view).makeCons(^{
+        make.centerX.top.equal.view([self.view viewWithTag:101]).centerX.bottom.constants(0);
+    });
 }
+
 - (void)demo4{
-    
+    AppStoreViewController *VC = [[AppStoreViewController alloc]init];
+    [self.view addSubview:VC.view.xywh(self.view.bounds)];
+    [self addChildViewController:VC];
 }
+
 - (void)demo5{
-    
+    GroupTV(
+        Section(
+                Row.str(@"Row1").fnt(20).color(@"red"),
+                Row.str(@"Row2").detailStr(@"detail"),
+                Row.str(@"Row3").detailStr(@"detail").img(@"moose").subtitleStyle.separatorLeftInset(15),
+                Row.str(@"Row4").detailStr(@"detail").value2Style.disclosure.onClick(@"row4Clock"),
+                Row.str(@"Row5").accessory(Switch.onChange(^{
+            Log(@"switch change");
+        })).onClick(^{
+            Log(@"Row5");
+        })
+      ),
+        Section(
+            Row.str(@"Optionals1").check(YES),
+            Row.str(@"Optionals2"),
+            Row.str(@"Optionals3")
+            ).singleCheck,
+        Section(
+                Row.str(@"Optionals11").check(YES),
+                Row.str(@"Optionals22"),
+                Row.str(@"Optionals33")
+                ).multiCheck,
+        Section(
+                Row.custom(^(id contentView){
+            Label.str(@"Done").color(@"orange").centerAlignment.embedIn(contentView);
+        }).onClick(^{
+            id checkedIndex = [[self.view viewWithTag:101]checkedIndexPaths];
+            Log(checkedIndex);
+        })
+            )
+        ).embedIn(self.view).tg(101);
 }
+
+- (void)row4Clock{
+    Log(@"row4Clock");
+}
+
 - (void)demo6{
+    Style(@"h1").color(@"#333333").fnt(17);
+    Style(@"button").fixHeight(30).insets(0, 10).cornerRadius(5);
+    id actionButtonStyle = Style().styles(@"button h1").bgImg(@"red").highBgImg(@"blue").highColor(@"white");
+    id text = Label.styles(@"h1").str(@"Style Example:");
+    id alert = Button.styles(actionButtonStyle).str(@"Alert").onClick(^{
+       id message = @"You have to call .show() in the end in order to make Alert visible.";
+        Alert.title(@"Alert").message(message).action(@"OK", ^{
+            Log(@"OK");
+        }).cancelAction(@"Cancel").show();
+    });
+    
+    id action = Button.styles(actionButtonStyle).bgImg(@"orange").str(@"ActionSheet").onClick(^{
+        ActionSheet.title(@"ActionSheet").message(@"ActionSheet use the same syntax as Alert.").action(@"Action1", ^{
+            Log(@"Action1");
+            
+        }).action(@"Action2", ^{
+            Log(@"Action2");
+        }).destructiveAction(@"Delete", ^{
+            Log(@"Delete");
+        }).cancelAction(@"Cancel").tint(@"cyan").show();
+    });
+    VerStack(text, alert, action).embedIn(self.view, 20, 20, NERNull, 20).gap(30);
+    
     
 }
 

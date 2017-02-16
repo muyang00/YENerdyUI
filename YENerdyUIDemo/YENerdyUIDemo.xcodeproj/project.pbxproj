@@ -19,6 +19,7 @@
 		B48F52C71E55397000496C54 /* YENerdyUIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52C61E55397000496C54 /* YENerdyUIDemoUITests.m */; };
 		B48F52D61E553C0500496C54 /* AppStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52D51E553C0500496C54 /* AppStoreViewController.m */; };
 		B48F52D91E553C2900496C54 /* AppStoreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52D81E553C2900496C54 /* AppStoreViewCell.m */; };
+		B48F52DB1E55914F00496C54 /* appList.plist in Resources */ = {isa = PBXBuildFile; fileRef = B48F52DA1E55914F00496C54 /* appList.plist */; };
 		C7F7B505D0D1F264D22E6BBF /* libPods-YENerdyUIDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F84FF4F9884A4711C82559E6 /* libPods-YENerdyUIDemoUITests.a */; };
 		FDD098ECA7A974A78CD5A760 /* libPods-YENerdyUIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17A66EC58AB00917550CD43 /* libPods-YENerdyUIDemo.a */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		B48F52D51E553C0500496C54 /* AppStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreViewController.m; sourceTree = "<group>"; };
 		B48F52D71E553C2900496C54 /* AppStoreViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreViewCell.h; sourceTree = "<group>"; };
 		B48F52D81E553C2900496C54 /* AppStoreViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreViewCell.m; sourceTree = "<group>"; };
+		B48F52DA1E55914F00496C54 /* appList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appList.plist; sourceTree = "<group>"; };
 		C0AE11CB73009560B1431495 /* Pods-YENerdyUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemo/Pods-YENerdyUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E38116A6C7E79655A95AB1 /* Pods-YENerdyUIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemoTests/Pods-YENerdyUIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F84FF4F9884A4711C82559E6 /* libPods-YENerdyUIDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YENerdyUIDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +163,7 @@
 				B48F52AD1E55397000496C54 /* Assets.xcassets */,
 				B48F52AF1E55397000496C54 /* LaunchScreen.storyboard */,
 				B48F52B21E55397000496C54 /* Info.plist */,
+				B48F52DA1E55914F00496C54 /* appList.plist */,
 				B48F52AA1E55397000496C54 /* YENerdyUIDemo.xcdatamodeld */,
 				B48F529E1E55397000496C54 /* Supporting Files */,
 			);
@@ -308,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48F52DB1E55914F00496C54 /* appList.plist in Resources */,
 				B48F52B11E55397000496C54 /* LaunchScreen.storyboard in Resources */,
 				B48F52AE1E55397000496C54 /* Assets.xcassets in Resources */,
 				B48F52A91E55397000496C54 /* Main.storyboard in Resources */,
