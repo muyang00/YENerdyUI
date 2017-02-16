@@ -1,0 +1,21 @@
+PODS:
+  - NerdyUI (0.0.4):
+    - NerdyUI/Chainable (= 0.0.4)
+    - NerdyUI/Private (= 0.0.4)
+    - NerdyUI/Public (= 0.0.4)
+  - NerdyUI/Chainable (0.0.4):
+    - NerdyUI/Private
+    - NerdyUI/Public
+  - NerdyUI/Private (0.0.4)
+  - NerdyUI/Public (0.0.4):
+    - NerdyUI/Private
+
+DEPENDENCIES:
+  - NerdyUI (~> 0.0.4)
+
+SPEC CHECKSUMS:
+  NerdyUI: ceb8b15f91d4c66f40cfa5526ccab8c99356324b
+
+PODFILE CHECKSUM: 6447853b25dc3d64dcbc2ad5c55770be7b2ca4bb
+
+COCOAPODS: 1.2.0

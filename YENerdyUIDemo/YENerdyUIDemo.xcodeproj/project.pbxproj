@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ECF70330B92079464941928 /* libPods-YENerdyUIDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72591EBCEC5DC9B6C4543BF7 /* libPods-YENerdyUIDemoTests.a */; };
+		B48F52A01E55397000496C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F529F1E55397000496C54 /* main.m */; };
+		B48F52A31E55397000496C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52A21E55397000496C54 /* AppDelegate.m */; };
+		B48F52A61E55397000496C54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52A51E55397000496C54 /* ViewController.m */; };
+		B48F52A91E55397000496C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48F52A71E55397000496C54 /* Main.storyboard */; };
+		B48F52AC1E55397000496C54 /* YENerdyUIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48F52AA1E55397000496C54 /* YENerdyUIDemo.xcdatamodeld */; };
+		B48F52AE1E55397000496C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48F52AD1E55397000496C54 /* Assets.xcassets */; };
+		B48F52B11E55397000496C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48F52AF1E55397000496C54 /* LaunchScreen.storyboard */; };
+		B48F52BC1E55397000496C54 /* YENerdyUIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52BB1E55397000496C54 /* YENerdyUIDemoTests.m */; };
+		B48F52C71E55397000496C54 /* YENerdyUIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F52C61E55397000496C54 /* YENerdyUIDemoUITests.m */; };
+		C7F7B505D0D1F264D22E6BBF /* libPods-YENerdyUIDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F84FF4F9884A4711C82559E6 /* libPods-YENerdyUIDemoUITests.a */; };
+		FDD098ECA7A974A78CD5A760 /* libPods-YENerdyUIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17A66EC58AB00917550CD43 /* libPods-YENerdyUIDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48F52B81E55397000496C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48F52931E55397000496C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48F529A1E55397000496C54;
+			remoteInfo = YENerdyUIDemo;
+		};
+		B48F52C31E55397000496C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48F52931E55397000496C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48F529A1E55397000496C54;
+			remoteInfo = YENerdyUIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2F1CD6BC7310B206383ABD /* Pods-YENerdyUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemo/Pods-YENerdyUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4068AA0F311E6949D9C0BE8F /* Pods-YENerdyUIDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemoTests/Pods-YENerdyUIDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		570B288FFE54476D6876841C /* Pods-YENerdyUIDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemoUITests/Pods-YENerdyUIDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72591EBCEC5DC9B6C4543BF7 /* libPods-YENerdyUIDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YENerdyUIDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17A66EC58AB00917550CD43 /* libPods-YENerdyUIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YENerdyUIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E9E1582E68F938D4EFE743 /* Pods-YENerdyUIDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemoUITests/Pods-YENerdyUIDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B48F529B1E55397000496C54 /* YENerdyUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YENerdyUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48F529F1E55397000496C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B48F52A11E55397000496C54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B48F52A21E55397000496C54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B48F52A41E55397000496C54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B48F52A51E55397000496C54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B48F52A81E55397000496C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48F52AB1E55397000496C54 /* YENerdyUIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YENerdyUIDemo.xcdatamodel; sourceTree = "<group>"; };
+		B48F52AD1E55397000496C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48F52B01E55397000496C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48F52B21E55397000496C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48F52B71E55397000496C54 /* YENerdyUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YENerdyUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48F52BB1E55397000496C54 /* YENerdyUIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YENerdyUIDemoTests.m; sourceTree = "<group>"; };
+		B48F52BD1E55397000496C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48F52C21E55397000496C54 /* YENerdyUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YENerdyUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48F52C61E55397000496C54 /* YENerdyUIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YENerdyUIDemoUITests.m; sourceTree = "<group>"; };
+		B48F52C81E55397000496C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AE11CB73009560B1431495 /* Pods-YENerdyUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemo/Pods-YENerdyUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E38116A6C7E79655A95AB1 /* Pods-YENerdyUIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YENerdyUIDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YENerdyUIDemoTests/Pods-YENerdyUIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F84FF4F9884A4711C82559E6 /* libPods-YENerdyUIDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YENerdyUIDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48F52981E55397000496C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD098ECA7A974A78CD5A760 /* libPods-YENerdyUIDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48F52B41E55397000496C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECF70330B92079464941928 /* libPods-YENerdyUIDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48F52BF1E55397000496C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F7B505D0D1F264D22E6BBF /* libPods-YENerdyUIDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EC04A2C3C1D6535EDC0632 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17A66EC58AB00917550CD43 /* libPods-YENerdyUIDemo.a */,
+				72591EBCEC5DC9B6C4543BF7 /* libPods-YENerdyUIDemoTests.a */,
+				F84FF4F9884A4711C82559E6 /* libPods-YENerdyUIDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FAD68542CF9A0D0B7D94717 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0AE11CB73009560B1431495 /* Pods-YENerdyUIDemo.debug.xcconfig */,
+				0F2F1CD6BC7310B206383ABD /* Pods-YENerdyUIDemo.release.xcconfig */,
+				C8E38116A6C7E79655A95AB1 /* Pods-YENerdyUIDemoTests.debug.xcconfig */,
+				4068AA0F311E6949D9C0BE8F /* Pods-YENerdyUIDemoTests.release.xcconfig */,
+				570B288FFE54476D6876841C /* Pods-YENerdyUIDemoUITests.debug.xcconfig */,
+				B3E9E1582E68F938D4EFE743 /* Pods-YENerdyUIDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B48F52921E55397000496C54 = {
+			isa = PBXGroup;
+			children = (
+				B48F529D1E55397000496C54 /* YENerdyUIDemo */,
+				B48F52BA1E55397000496C54 /* YENerdyUIDemoTests */,
+				B48F52C51E55397000496C54 /* YENerdyUIDemoUITests */,
+				B48F529C1E55397000496C54 /* Products */,
+				8FAD68542CF9A0D0B7D94717 /* Pods */,
+				14EC04A2C3C1D6535EDC0632 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B48F529C1E55397000496C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48F529B1E55397000496C54 /* YENerdyUIDemo.app */,
+				B48F52B71E55397000496C54 /* YENerdyUIDemoTests.xctest */,
+				B48F52C21E55397000496C54 /* YENerdyUIDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48F529D1E55397000496C54 /* YENerdyUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B48F52A11E55397000496C54 /* AppDelegate.h */,
+				B48F52A21E55397000496C54 /* AppDelegate.m */,
+				B48F52A41E55397000496C54 /* ViewController.h */,
+				B48F52A51E55397000496C54 /* ViewController.m */,
+				B48F52A71E55397000496C54 /* Main.storyboard */,
+				B48F52AD1E55397000496C54 /* Assets.xcassets */,
+				B48F52AF1E55397000496C54 /* LaunchScreen.storyboard */,
+				B48F52B21E55397000496C54 /* Info.plist */,
+				B48F52AA1E55397000496C54 /* YENerdyUIDemo.xcdatamodeld */,
+				B48F529E1E55397000496C54 /* Supporting Files */,
+			);
+			path = YENerdyUIDemo;
+			sourceTree = "<group>";
+		};
+		B48F529E1E55397000496C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48F529F1E55397000496C54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48F52BA1E55397000496C54 /* YENerdyUIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B48F52BB1E55397000496C54 /* YENerdyUIDemoTests.m */,
+				B48F52BD1E55397000496C54 /* Info.plist */,
+			);
+			path = YENerdyUIDemoTests;
+			sourceTree = "<group>";
+		};
+		B48F52C51E55397000496C54 /* YENerdyUIDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B48F52C61E55397000496C54 /* YENerdyUIDemoUITests.m */,
+				B48F52C81E55397000496C54 /* Info.plist */,
+			);
+			path = YENerdyUIDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48F529A1E55397000496C54 /* YENerdyUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48F52CB1E55397000496C54 /* Build configuration list for PBXNativeTarget "YENerdyUIDemo" */;
+			buildPhases = (
+				9339AE1E4294AAEFEAED6C4B /* [CP] Check Pods Manifest.lock */,
+				B48F52971E55397000496C54 /* Sources */,
+				B48F52981E55397000496C54 /* Frameworks */,
+				B48F52991E55397000496C54 /* Resources */,
+				CA60D4EB85C49D155E60DB6B /* [CP] Embed Pods Frameworks */,
+				9609826B4BC41EF44935612C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YENerdyUIDemo;
+			productName = YENerdyUIDemo;
+			productReference = B48F529B1E55397000496C54 /* YENerdyUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48F52B61E55397000496C54 /* YENerdyUIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48F52CE1E55397000496C54 /* Build configuration list for PBXNativeTarget "YENerdyUIDemoTests" */;
+			buildPhases = (
+				C3ACC0F7643AFB7215C0D3D7 /* [CP] Check Pods Manifest.lock */,
+				B48F52B31E55397000496C54 /* Sources */,
+				B48F52B41E55397000496C54 /* Frameworks */,
+				B48F52B51E55397000496C54 /* Resources */,
+				E9364FF8610DACA94F41AE3F /* [CP] Embed Pods Frameworks */,
+				7A531B35B4BC9E33DA593BCE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48F52B91E55397000496C54 /* PBXTargetDependency */,
+			);
+			name = YENerdyUIDemoTests;
+			productName = YENerdyUIDemoTests;
+			productReference = B48F52B71E55397000496C54 /* YENerdyUIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B48F52C11E55397000496C54 /* YENerdyUIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48F52D11E55397000496C54 /* Build configuration list for PBXNativeTarget "YENerdyUIDemoUITests" */;
+			buildPhases = (
+				A0B47174FFDAD44F6D706205 /* [CP] Check Pods Manifest.lock */,
+				B48F52BE1E55397000496C54 /* Sources */,
+				B48F52BF1E55397000496C54 /* Frameworks */,
+				B48F52C01E55397000496C54 /* Resources */,
+				2483AEDAB1FB0AD58B237B24 /* [CP] Embed Pods Frameworks */,
+				B18ECEB50F090C68C104AD76 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48F52C41E55397000496C54 /* PBXTargetDependency */,
+			);
+			name = YENerdyUIDemoUITests;
+			productName = YENerdyUIDemoUITests;
+			productReference = B48F52C21E55397000496C54 /* YENerdyUIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48F52931E55397000496C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yongen;
+				TargetAttributes = {
+					B48F529A1E55397000496C54 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B48F52B61E55397000496C54 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B48F529A1E55397000496C54;
+					};
+					B48F52C11E55397000496C54 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B48F529A1E55397000496C54;
+					};
+				};
+			};
+			buildConfigurationList = B48F52961E55397000496C54 /* Build configuration list for PBXProject "YENerdyUIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48F52921E55397000496C54;
+			productRefGroup = B48F529C1E55397000496C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48F529A1E55397000496C54 /* YENerdyUIDemo */,
+				B48F52B61E55397000496C54 /* YENerdyUIDemoTests */,
+				B48F52C11E55397000496C54 /* YENerdyUIDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48F52991E55397000496C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48F52B11E55397000496C54 /* LaunchScreen.storyboard in Resources */,
+				B48F52AE1E55397000496C54 /* Assets.xcassets in Resources */,
+				B48F52A91E55397000496C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48F52B51E55397000496C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48F52C01E55397000496C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2483AEDAB1FB0AD58B237B24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YENerdyUIDemoUITests/Pods-YENerdyUIDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A531B35B4BC9E33DA593BCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YENerdyUIDemoTests/Pods-YENerdyUIDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9339AE1E4294AAEFEAED6C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9609826B4BC41EF44935612C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YENerdyUIDemo/Pods-YENerdyUIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B47174FFDAD44F6D706205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B18ECEB50F090C68C104AD76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YENerdyUIDemoUITests/Pods-YENerdyUIDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3ACC0F7643AFB7215C0D3D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA60D4EB85C49D155E60DB6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YENerdyUIDemo/Pods-YENerdyUIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9364FF8610DACA94F41AE3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YENerdyUIDemoTests/Pods-YENerdyUIDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48F52971E55397000496C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48F52A61E55397000496C54 /* ViewController.m in Sources */,
+				B48F52AC1E55397000496C54 /* YENerdyUIDemo.xcdatamodeld in Sources */,
+				B48F52A31E55397000496C54 /* AppDelegate.m in Sources */,
+				B48F52A01E55397000496C54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48F52B31E55397000496C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48F52BC1E55397000496C54 /* YENerdyUIDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48F52BE1E55397000496C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48F52C71E55397000496C54 /* YENerdyUIDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48F52B91E55397000496C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48F529A1E55397000496C54 /* YENerdyUIDemo */;
+			targetProxy = B48F52B81E55397000496C54 /* PBXContainerItemProxy */;
+		};
+		B48F52C41E55397000496C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48F529A1E55397000496C54 /* YENerdyUIDemo */;
+			targetProxy = B48F52C31E55397000496C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48F52A71E55397000496C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48F52A81E55397000496C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B48F52AF1E55397000496C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48F52B01E55397000496C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48F52C91E55397000496C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B48F52CA1E55397000496C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48F52CC1E55397000496C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AE11CB73009560B1431495 /* Pods-YENerdyUIDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YENerdyUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YENerdyUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B48F52CD1E55397000496C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2F1CD6BC7310B206383ABD /* Pods-YENerdyUIDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YENerdyUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YENerdyUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B48F52CF1E55397000496C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E38116A6C7E79655A95AB1 /* Pods-YENerdyUIDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YENerdyUIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YENerdyUIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YENerdyUIDemo.app/YENerdyUIDemo";
+			};
+			name = Debug;
+		};
+		B48F52D01E55397000496C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4068AA0F311E6949D9C0BE8F /* Pods-YENerdyUIDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YENerdyUIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YENerdyUIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YENerdyUIDemo.app/YENerdyUIDemo";
+			};
+			name = Release;
+		};
+		B48F52D21E55397000496C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570B288FFE54476D6876841C /* Pods-YENerdyUIDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = YENerdyUIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YENerdyUIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YENerdyUIDemo;
+			};
+			name = Debug;
+		};
+		B48F52D31E55397000496C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E9E1582E68F938D4EFE743 /* Pods-YENerdyUIDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = YENerdyUIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YENerdyUIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YENerdyUIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48F52961E55397000496C54 /* Build configuration list for PBXProject "YENerdyUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F52C91E55397000496C54 /* Debug */,
+				B48F52CA1E55397000496C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48F52CB1E55397000496C54 /* Build configuration list for PBXNativeTarget "YENerdyUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F52CC1E55397000496C54 /* Debug */,
+				B48F52CD1E55397000496C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48F52CE1E55397000496C54 /* Build configuration list for PBXNativeTarget "YENerdyUIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F52CF1E55397000496C54 /* Debug */,
+				B48F52D01E55397000496C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48F52D11E55397000496C54 /* Build configuration list for PBXNativeTarget "YENerdyUIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F52D21E55397000496C54 /* Debug */,
+				B48F52D31E55397000496C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B48F52AA1E55397000496C54 /* YENerdyUIDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B48F52AB1E55397000496C54 /* YENerdyUIDemo.xcdatamodel */,
+			);
+			currentVersion = B48F52AB1E55397000496C54 /* YENerdyUIDemo.xcdatamodel */;
+			path = YENerdyUIDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B48F52931E55397000496C54 /* Project object */;
+}
